@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+}
+
+nav {
+  flex-shrink: 0;
+
+}
+
+.no-underline {
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+
+
+
+.active {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 15px;
+  background: #cdcdcd;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.call {
+  background: url(../src/assets/call.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.expand {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50vh;
+  display: grid;
+  gap: 10px;
+  padding: 10px 10px;
+  border-bottom-left-radius: 10px;
+  grid-template-columns: 1fr;
+  background: #4b4b4b;
+  color: #fff;
+  transform: translate(55%, 0);
+}
+
+.a {
+  border-radius: 50px;
+
+}
+
+.hife {
+
+  transition: display 1s ease-in-out;
+  display: none;
+
+}
+
+
+
+.photogallery {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 20px;
+
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+
+}
