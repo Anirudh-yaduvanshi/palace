@@ -1,6 +1,6 @@
 import React from 'react'
 
-import"../../app.css"
+import"../../App.css"
 import Homeextender from '../Homeextend'
 import Lannding from '../Lannding'
 import Footer from '../Footer'
